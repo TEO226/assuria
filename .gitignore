@@ -4,3 +4,4 @@ __pycache__/
 .pytest_cache/
 outputs/
 GUIDE_PAS_A_PAS.md
+.vscode/
