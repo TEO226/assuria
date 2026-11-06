@@ -14,12 +14,12 @@ from common.config import CHAT_MODEL, DATA, env, estimate_cost, get_openai_clien
 
 ASSISTANT_AVATAR = ":material/shield_person:"
 
-QUICK_ACTIONS = [
-    (":material/directions_car:", "Devis auto", "Je veux un devis pour mon assurance auto."),
-    (":material/pending_actions:", "Suivre un sinistre", "Où en est mon dossier SIN-2026-0101 ?"),
-    (":material/verified_user:", "Mes garanties", "Quelles garanties contient la formule Tiers étendu ?"),
-    (":material/car_crash:", "Déclarer un accident", "J'ai eu un accident de voiture, que dois-je faire ?"),
-]
+QUICK_ACTIONS = {
+    "devis": (":material/directions_car:", "Devis auto instantané", "Je veux un devis pour mon assurance auto."),
+    "sinistre": (":material/pending_actions:", "Suivre un sinistre", "Où en est mon dossier SIN-2026-0101 ?"),
+    "garanties": (":material/verified_user:", "Mes garanties", "Quelles garanties contient la formule Tiers étendu ?"),
+    "declarer": (":material/car_crash:", "Déclarer un accident", "J'ai eu un accident de voiture, que dois-je faire ?"),
+}
 
 st.set_page_config(page_title="AssurIA — Kéné Assurances IARD", page_icon=":material/shield_person:",
                    layout="centered", initial_sidebar_state="collapsed")
@@ -57,36 +57,44 @@ if st.session_state.get("config") != config:
 
 st.session_state.setdefault("messages", [])
 
-st.markdown("""
-<div class="brand">
-  <div class="brand-mark">A</div>
-  <div><div class="brand-name">AssurIA</div><div class="brand-sub">Kéné Assurances IARD</div></div>
-</div>""", unsafe_allow_html=True)
+def quick_action(slot, key: str) -> None:
+    icon, label, prompt = QUICK_ACTIONS[key]
+    if slot.button(label, icon=icon, key=f"qa-{key}", use_container_width=True):
+        st.session_state.pending_prompt = prompt
+        st.rerun()
 
 
 def landing() -> None:
     st.markdown("""
 <div class="hero">
-  <h1>Bonjour, comment puis-je vous aider ?</h1>
-  <p>Devis, garanties, suivi de sinistre : posez votre question, la réponse s'appuie sur les documents de la compagnie.</p>
+  <div class="hero-top">
+    <span class="hero-brand">KÉNÉ ASSURANCES</span>
+    <span class="hero-badge"><i></i>AssurIA en ligne</span>
+  </div>
+  <h1>Protéger ce qui compte, <span class="accent">en une question.</span></h1>
+  <p>Devis, garanties, sinistres : des réponses tirées des conditions de la compagnie.</p>
 </div>
-<p class="section-label">Actions rapides</p>""", unsafe_allow_html=True)
+<p class="section-label">Que souhaitez-vous faire ?</p>""", unsafe_allow_html=True)
 
     with st.container(key="quick"):
-        for row in (QUICK_ACTIONS[:2], QUICK_ACTIONS[2:]):
-            for col, (icon, label, prompt) in zip(st.columns(2), row):
-                if col.button(label, icon=icon, key=f"qa-{label}", use_container_width=True):
-                    st.session_state.pending_prompt = prompt
-                    st.rerun()
+        quick_action(st, "devis")
+        left, right = st.columns(2)
+        quick_action(left, "sinistre")
+        quick_action(right, "garanties")
+        quick_action(st, "declarer")
 
     st.markdown("""
-<div class="trust">
-  <div class="trust-item"><span class="trust-dot"></span><div><b>Réponses sourcées</b> à partir des conditions et barèmes de la compagnie.</div></div>
-  <div class="trust-item"><span class="trust-dot"></span><div><b>Calculs exacts</b> : les primes sont calculées par le barème, jamais estimées.</div></div>
-  <div class="trust-item"><span class="trust-dot"></span><div><b>Données protégées</b> : aucune information personnelle d'un assuré n'est communiquée.</div></div>
-</div>
-<p class="legal">Compagnie fictive. Tarifs indicatifs : seule une offre écrite engage la compagnie.</p>""",
+<div class="trust"><span>Réponses sourcées</span><span>Primes calculées sur le barème</span><span>Données confidentielles</span></div>
+<p class="legal">Kéné Assurances IARD est une compagnie fictive. Tarifs indicatifs : seule une offre écrite engage la compagnie.</p>""",
                 unsafe_allow_html=True)
+
+
+def chat_header() -> None:
+    st.markdown("""
+<div class="chat-head">
+  <div class="mark">A</div>
+  <div><div class="name">AssurIA</div><div class="sub">Kéné Assurances IARD</div></div>
+</div>""", unsafe_allow_html=True)
 
 
 def render_meta(turn) -> str:
@@ -104,6 +112,8 @@ def render_meta(turn) -> str:
 
 if not st.session_state.messages and "pending_prompt" not in st.session_state:
     landing()
+else:
+    chat_header()
 
 for msg in st.session_state.messages:
     avatar = ASSISTANT_AVATAR if msg["role"] == "assistant" else None
@@ -114,7 +124,7 @@ for msg in st.session_state.messages:
         if msg.get("meta"):
             st.caption(msg["meta"])
 
-prompt = st.chat_input("Votre question : devis, garanties, sinistre…")
+prompt = st.chat_input("Écrire à AssurIA…")
 prompt = prompt or st.session_state.pop("pending_prompt", None)
 
 if prompt:

@@ -1,76 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@500&display=swap');
 
 :root {
-  --primary: #1F5FAD;
-  --primary-soft: rgba(31, 95, 173, 0.06);
-  --primary-border: rgba(31, 95, 173, 0.14);
-  --ink: #0F1B2D;
-  --ink-80: rgba(15, 27, 45, 0.80);
-  --ink-60: rgba(15, 27, 45, 0.60);
-  --surface: #FFFFFF;
-  --canvas: #F6F8FB;
-  --shadow: 0 8px 24px rgba(31, 95, 173, 0.08), 0 2px 4px rgba(31, 95, 173, 0.04);
+  --ink: #0C0A09;
+  --night: #1C1917;
+  --stone: #57534E;
+  --stone-light: #A8A29E;
+  --line: #E7E5E4;
+  --canvas: #FAFAF9;
+  --card: #FFFFFF;
+  --gold: #A16207;          /* sur fond clair, contraste 4.9:1 */
+  --gold-bright: #D6A84A;   /* sur fond sombre */
+  --gold-soft: rgba(161, 98, 7, 0.08);
+  --radius: 16px;
 }
 
 html, body, [class*="st-"], .stMarkdown, button, input, textarea, [data-testid="stChatInput"] textarea {
   font-family: 'Roboto', sans-serif !important;
 }
+/* Les icônes Streamlit sont une police à ligatures : ne pas leur appliquer Roboto. */
+[data-testid="stIconMaterial"] { font-family: 'Material Symbols Rounded' !important; }
 
 #MainMenu, footer, [data-testid="stDecoration"] { display: none; }
 header[data-testid="stHeader"] { background: transparent; }
+.block-container { max-width: 720px; padding: 56px 16px 128px; }
 
-.block-container { max-width: 720px; padding: 24px 16px 120px; }
+:focus-visible { outline: 3px solid var(--gold) !important; outline-offset: 2px; }
 
-/* En-tête */
-.brand { display: flex; align-items: center; gap: 12px; margin: 8px 0 32px; }
-.brand-mark {
-  width: 40px; height: 40px; border-radius: 12px; background: var(--primary); color: #fff;
-  display: flex; align-items: center; justify-content: center; font-weight: 500; font-size: 18px;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), var(--shadow);
+/* En-tête sombre */
+.hero {
+  background: var(--night); color: var(--canvas); border-radius: 24px;
+  padding: 24px 24px 32px; margin: 0 0 24px;
 }
-.brand-name { font-size: 18px; font-weight: 500; color: var(--ink); line-height: 1.2; }
-.brand-sub { font-size: 13px; color: var(--ink-60); }
+.hero-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 32px; }
+.hero-brand { font-size: 12px; font-weight: 500; letter-spacing: 2px; color: var(--gold-bright); }
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--stone-light);
+  border: 1px solid #44403C; border-radius: 999px; padding: 4px 10px;
+}
+.hero-badge i { width: 6px; height: 6px; border-radius: 50%; background: #4ADE80; display: inline-block; }
+.hero h1, .hero h1 span { font-size: 32px; font-weight: 400; line-height: 1.2; color: var(--canvas) !important; margin: 0 0 12px; padding: 0; }
+.hero h1 .accent { color: var(--gold-bright) !important; font-weight: 500; }
+.hero p { font-size: 16px; line-height: 1.5; color: var(--stone-light); margin: 0; }
 
-/* Accroche */
-.hero h1 { font-size: 32px; font-weight: 500; line-height: 1.2; color: var(--ink); margin: 0 0 12px; padding: 0; }
-.hero p { font-size: 16px; color: var(--ink-80); line-height: 1.5; margin: 0 0 32px; }
+.stMarkdown p.section-label { font-size: 13px !important; font-weight: 500; color: var(--stone); margin: 0 0 12px; }
 
-.section-label { font-size: 13px; font-weight: 500; color: var(--ink-60); margin: 0 0 12px; }
-
-/* Actions rapides : boutons Streamlit présentés en cartes */
+/* Grille de cartes : boutons Streamlit */
+.st-key-quick [data-testid="stHorizontalBlock"] { flex-wrap: nowrap !important; gap: 8px; }
+.st-key-quick [data-testid="stColumn"] { min-width: 0 !important; flex: 1 1 0 !important; width: auto !important; }
+.st-key-quick [data-testid="stVerticalBlock"] { gap: 8px; }
 .st-key-quick button {
-  width: 100%; min-height: 96px; padding: 16px; border-radius: 16px;
-  display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; gap: 8px;
-  background: var(--surface); border: 1px solid var(--primary-border); box-shadow: var(--shadow);
-  color: var(--ink); text-align: left; transition: transform .15s ease, border-color .15s ease;
+  width: 100%; min-height: 96px; padding: 16px; border-radius: var(--radius);
+  display: flex; align-items: stretch; justify-content: flex-start;
+  background: var(--card); border: 1px solid var(--line); color: var(--ink); text-align: left;
+  box-shadow: 0 1px 2px rgba(28, 25, 23, 0.04);
+  transition: border-color 200ms ease, box-shadow 200ms ease, transform 200ms ease;
+  cursor: pointer;
 }
-.st-key-quick button:hover { border-color: var(--primary); color: var(--ink); transform: translateY(-2px); }
+.st-key-quick button:hover {
+  border-color: var(--gold); color: var(--ink);
+  box-shadow: 0 8px 24px rgba(28, 25, 23, 0.08); transform: translateY(-1px);
+}
 .st-key-quick button:active { transform: scale(0.98); }
-.st-key-quick button p { font-size: 16px; font-weight: 500; text-align: left; }
-.st-key-quick button [data-testid="stIconMaterial"] {
-  color: var(--primary); background: var(--primary-soft); border-radius: 8px; padding: 6px; font-size: 20px;
+.st-key-quick button > div { width: 100%; }
+.st-key-quick button > div > span {
+  display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between;
+  gap: 12px; height: 100%; width: 100%;
 }
+.st-key-quick [data-testid="stMarkdownContainer"],
+.st-key-quick [data-testid="stMarkdownContainer"] p {
+  overflow: visible; white-space: normal; text-overflow: clip;
+}
+.st-key-quick button p { font-size: 16px; font-weight: 500; text-align: left; line-height: 1.3; margin: 0; }
+.st-key-quick button [data-testid="stIconMaterial"] { color: var(--gold); font-size: 24px; }
 
-/* Bandeau de confiance */
-.trust { display: grid; gap: 12px; margin: 32px 0 0; padding: 16px; border-radius: 16px; background: var(--primary-soft); }
-.trust-item { display: flex; gap: 12px; align-items: flex-start; font-size: 14px; color: var(--ink-80); line-height: 1.4; }
-.trust-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--primary); margin-top: 6px; flex: none; }
-.trust-item b { font-weight: 500; color: var(--ink); }
+/* Cartes larges : icône à gauche, sous-titre à droite */
+.st-key-qa-devis button, .st-key-qa-declarer button { min-height: 72px; align-items: center; }
+.st-key-qa-devis button > div > span, .st-key-qa-declarer button > div > span {
+  flex-direction: row; align-items: center; justify-content: flex-start;
+}
+.st-key-qa-devis button::after, .st-key-qa-declarer button::after {
+  font-size: 13px; color: var(--stone); margin-left: 12px; white-space: nowrap; align-self: center;
+}
+.st-key-qa-devis button::after { content: "Calculé sur le barème"; }
+.st-key-qa-declarer button::after { content: "Étapes et pièces"; }
 
-.legal { font-size: 12px; color: var(--ink-60); margin: 24px 0 0; line-height: 1.5; }
+.trust {
+  display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 24px 0 0; font-size: 13px; color: var(--stone);
+}
+.trust span { display: inline-flex; align-items: center; gap: 6px; }
+.trust span::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--gold); }
+.stMarkdown p.legal { font-size: 12px !important; color: var(--stone); margin: 16px 0 0; line-height: 1.5; }
 
 /* Conversation */
+.chat-head { display: flex; align-items: center; gap: 12px; margin: 0 0 24px; }
+.chat-head .mark {
+  width: 40px; height: 40px; border-radius: 12px; background: var(--night); color: var(--gold-bright);
+  display: flex; align-items: center; justify-content: center; font-weight: 500; font-size: 16px;
+}
+.chat-head .name { font-size: 16px; font-weight: 500; color: var(--ink); line-height: 1.2; }
+.chat-head .sub { font-size: 13px; color: var(--stone); }
+
 [data-testid="stChatMessage"] {
-  background: var(--surface); border-radius: 16px; padding: 16px; box-shadow: var(--shadow); margin-bottom: 12px;
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 16px; margin-bottom: 12px;
 }
 [data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) {
-  background: var(--primary-soft); box-shadow: none;
+  background: var(--night); border-color: var(--night);
 }
-[data-testid="stChatMessage"] [data-testid="stCaptionContainer"] { font-family: 'Roboto Mono', monospace !important; font-size: 12px; }
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) p { color: var(--canvas); }
+[data-testid="stChatMessageAvatarUser"] { background: #44403C !important; color: var(--gold-bright) !important; }
+[data-testid="stChatMessage"] [data-testid="stIconMaterial"] { color: var(--gold); }
+[data-testid="stChatMessage"]:not(:has([data-testid="stChatMessageAvatarUser"])) strong { color: var(--gold); font-weight: 500; }
+[data-testid="stChatMessage"] [data-testid="stCaptionContainer"] {
+  font-family: 'Roboto Mono', monospace !important; font-size: 12px; color: var(--stone);
+}
 
-[data-testid="stChatInput"] { border-radius: 16px; box-shadow: var(--shadow); }
+[data-testid="stChatInput"] { border-radius: var(--radius); border: 1px solid var(--line); }
+[data-testid="stChatInput"]:focus-within { border-color: var(--gold); }
 
 @media (max-width: 640px) {
-  .hero h1 { font-size: 24px; }
-  .block-container { padding-top: 16px; }
+  .hero { padding: 20px 20px 24px; }
+  .hero h1, .hero h1 span { font-size: 24px; }
+  .hero-top { margin-bottom: 24px; }
+  .st-key-qa-devis button::after, .st-key-qa-declarer button::after { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .st-key-quick button { transition: none; }
+  .st-key-quick button:hover, .st-key-quick button:active { transform: none; }
 }
