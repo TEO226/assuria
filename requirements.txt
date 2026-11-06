@@ -1,0 +1,15 @@
+# SDK Microsoft Foundry (projet + client OpenAI compatible)
+azure-ai-projects>=2.0.0
+azure-identity>=1.19.0
+openai>=1.99.0
+
+# Évaluation (module 2 et module 6)
+azure-ai-evaluation>=1.9.0
+
+# Application
+python-dotenv>=1.0.1
+streamlit>=1.40.0
+pandas>=2.2.0
+
+# Tests hors ligne
+pytest>=8.0.0

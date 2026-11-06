@@ -1,0 +1,401 @@
+numero,date_survenance,date_declaration,branche,nature,ville,canal,montant_estime_fcfa,montant_regle_fcfa,statut
+SIN-2025-0001,2025-03-30,2025-04-11,Automobile,Incendie,Ouagadougou,Agent général,804000,0,En expertise
+SIN-2025-0002,2025-07-12,2025-07-13,Automobile,Bris de glace,Ouagadougou,Courtier,113000,105000,Réglé
+SIN-2025-0003,2025-07-23,2025-07-30,Voyage,Rapatriement,Fada N'Gourma,Agent général,2616000,1927000,Réglé
+SIN-2025-0004,2025-10-10,2025-10-14,Automobile,Bris de glace,Bobo-Dioulasso,Bancassurance,69000,0,Offre envoyée
+SIN-2025-0005,2025-07-24,2025-07-25,Automobile,Incendie,Koudougou,Courtier,3188000,0,Classé sans suite
+SIN-2025-0006,2025-03-24,2025-03-27,Automobile,Vol,Fada N'Gourma,Courtier,8182000,0,Offre envoyée
+SIN-2025-0007,2025-06-25,2025-07-07,Automobile,Incendie,Ouagadougou,Courtier,1529000,0,En cours d'instruction
+SIN-2025-0008,2025-03-15,2025-03-22,Automobile,Bris de glace,Bobo-Dioulasso,Courtier,268000,234000,Réglé
+SIN-2025-0009,2025-05-03,2025-05-07,Voyage,Rapatriement,Koudougou,Courtier,3162000,0,En cours d'instruction
+SIN-2025-0010,2025-11-06,2025-11-13,Automobile,Bris de glace,Ouahigouya,Courtier,140000,0,Classé sans suite
+SIN-2025-0011,2025-09-22,2025-09-26,Automobile,Vol,Fada N'Gourma,Agence directe,3302000,2616000,Réglé
+SIN-2025-0012,2025-06-19,2025-06-23,Automobile,Incendie,Bobo-Dioulasso,Bancassurance,1366000,0,Offre envoyée
+SIN-2025-0013,2025-04-29,2025-04-30,Professionnelle,Dégât des eaux,Fada N'Gourma,Agent général,1422000,1107000,Réglé
+SIN-2025-0014,2025-10-27,2025-10-28,Professionnelle,Incendie,Ouagadougou,Agence directe,25523000,19342000,Réglé
+SIN-2025-0015,2025-05-26,2025-06-07,Automobile,Incendie,Fada N'Gourma,Agence directe,1167000,942000,Réglé
+SIN-2025-0016,2025-12-04,2025-12-09,Automobile,Collision,Banfora,Agence directe,551000,0,Offre envoyée
+SIN-2025-0017,2025-05-10,2025-05-11,Automobile,Collision,Koudougou,Agent général,457000,0,En expertise
+SIN-2025-0018,2025-03-05,2025-03-12,Automobile,Vol,Ouagadougou,Bancassurance,1516000,1066000,Réglé
+SIN-2025-0019,2025-01-20,2025-01-21,Automobile,Incendie,Ouahigouya,Agence directe,2591000,2020000,Réglé
+SIN-2025-0020,2025-04-05,2025-04-07,Professionnelle,Bris de machine,Ouahigouya,Bancassurance,3052000,2271000,Réglé
+SIN-2025-0021,2025-01-30,2025-02-04,Professionnelle,Vol,Ouagadougou,Bancassurance,1858000,0,Classé sans suite
+SIN-2025-0022,2025-07-20,2025-07-20,Professionnelle,Dégât des eaux,Ouahigouya,Agent général,851000,664000,Réglé
+SIN-2025-0023,2025-03-13,2025-03-13,Automobile,Collision,Ouagadougou,Courtier,309000,225000,Réglé
+SIN-2025-0024,2025-12-11,2025-12-12,Habitation,Incendie,Ouahigouya,Agence directe,730000,0,Offre envoyée
+SIN-2025-0025,2025-06-17,2025-06-29,Automobile,Bris de glace,Ouahigouya,Courtier,86000,0,Classé sans suite
+SIN-2025-0026,2025-08-11,2025-08-11,Automobile,Vol,Fada N'Gourma,Courtier,4446000,3865000,Réglé
+SIN-2025-0027,2025-08-27,2025-08-28,Automobile,Incendie,Ouagadougou,Bancassurance,2045000,1538000,Réglé
+SIN-2025-0028,2025-11-26,2025-11-26,Automobile,Collision,Ouahigouya,Bancassurance,449000,0,Classé sans suite
+SIN-2025-0029,2025-08-21,2025-09-02,Automobile,Collision,Ouahigouya,Bancassurance,236000,0,En cours d'instruction
+SIN-2025-0030,2025-04-10,2025-04-11,Professionnelle,Dégât des eaux,Fada N'Gourma,Bancassurance,803000,0,En cours d'instruction
+SIN-2025-0031,2025-03-15,2025-03-17,Professionnelle,Incendie,Ouagadougou,Bancassurance,8255000,0,En expertise
+SIN-2025-0032,2025-03-27,2025-03-29,Habitation,Incendie,Banfora,Agence directe,2250000,1654000,Réglé
+SIN-2025-0033,2025-09-14,2025-09-15,Automobile,Incendie,Koudougou,Courtier,4412000,3670000,Réglé
+SIN-2025-0034,2025-05-07,2025-05-09,Professionnelle,Bris de machine,Ouahigouya,Courtier,8105000,5769000,Réglé
+SIN-2025-0035,2025-01-17,2025-01-20,Automobile,Bris de glace,Ouahigouya,Agence directe,68000,57000,Réglé
+SIN-2025-0036,2025-09-05,2025-09-09,Automobile,Bris de glace,Ouagadougou,Bancassurance,107000,0,Offre envoyée
+SIN-2025-0037,2025-04-05,2025-04-09,Professionnelle,Dégât des eaux,Fada N'Gourma,Courtier,1063000,0,En expertise
+SIN-2025-0038,2025-12-27,2025-12-31,Habitation,Dommages électriques,Fada N'Gourma,Courtier,345000,0,En expertise
+SIN-2025-0039,2025-05-02,2025-05-14,Professionnelle,Dégât des eaux,Banfora,Agent général,474000,0,En expertise
+SIN-2025-0040,2025-12-12,2025-12-13,Habitation,Dommages électriques,Banfora,Agent général,280000,0,Offre envoyée
+SIN-2025-0041,2025-07-11,2025-07-18,Automobile,Bris de glace,Fada N'Gourma,Courtier,117000,0,Offre envoyée
+SIN-2025-0042,2025-04-12,2025-04-17,Automobile,Incendie,Banfora,Courtier,1969000,1402000,Réglé
+SIN-2025-0043,2025-01-01,2025-01-02,Habitation,Dommages électriques,Bobo-Dioulasso,Bancassurance,202000,184000,Réglé
+SIN-2025-0044,2025-11-04,2025-11-07,Automobile,Vol,Ouahigouya,Bancassurance,3314000,0,En cours d'instruction
+SIN-2025-0045,2025-08-10,2025-08-11,Automobile,Bris de glace,Fada N'Gourma,Agent général,99000,0,En expertise
+SIN-2025-0046,2025-09-01,2025-09-05,Professionnelle,Incendie,Ouahigouya,Agence directe,7978000,7856000,Réglé
+SIN-2025-0047,2025-12-27,2025-12-28,Automobile,Collision,Ouagadougou,Courtier,905000,784000,Réglé
+SIN-2025-0048,2025-04-04,2025-04-09,Automobile,Incendie,Koudougou,Bancassurance,1429000,1011000,Réglé
+SIN-2025-0049,2025-01-07,2025-01-12,Habitation,Incendie,Ouahigouya,Bancassurance,3526000,0,Offre envoyée
+SIN-2025-0050,2025-11-03,2025-11-06,Automobile,Incendie,Fada N'Gourma,Agent général,2616000,2162000,Réglé
+SIN-2025-0051,2025-07-25,2025-07-29,Automobile,Incendie,Ouagadougou,Agence directe,1535000,0,En expertise
+SIN-2025-0052,2025-10-10,2025-10-22,Automobile,Incendie,Koudougou,Agence directe,1061000,0,En cours d'instruction
+SIN-2025-0053,2025-03-06,2025-03-18,Automobile,Collision,Banfora,Agence directe,981000,0,Classé sans suite
+SIN-2025-0054,2025-01-02,2025-01-04,Habitation,Dégât des eaux,Ouagadougou,Bancassurance,191000,0,Classé sans suite
+SIN-2025-0055,2025-06-02,2025-06-02,Voyage,Rapatriement,Ouahigouya,Courtier,5606000,0,Offre envoyée
+SIN-2025-0056,2025-09-06,2025-09-11,Voyage,Frais médicaux,Ouagadougou,Bancassurance,1537000,0,Classé sans suite
+SIN-2025-0057,2025-03-27,2025-04-01,Habitation,Dommages électriques,Ouagadougou,Bancassurance,442000,0,En expertise
+SIN-2025-0058,2025-04-21,2025-04-23,Professionnelle,Incendie,Fada N'Gourma,Bancassurance,12419000,0,En cours d'instruction
+SIN-2025-0059,2025-01-06,2025-01-06,Automobile,Vol,Bobo-Dioulasso,Agence directe,2129000,1652000,Réglé
+SIN-2025-0060,2025-08-24,2025-08-25,Habitation,Vol par effraction,Bobo-Dioulasso,Bancassurance,1458000,1403000,Réglé
+SIN-2025-0061,2025-11-18,2025-11-30,Automobile,Bris de glace,Banfora,Bancassurance,122000,0,En cours d'instruction
+SIN-2025-0062,2025-01-09,2025-01-09,Automobile,Bris de glace,Fada N'Gourma,Agence directe,119000,0,En cours d'instruction
+SIN-2025-0063,2025-09-21,2025-09-22,Automobile,Vol,Fada N'Gourma,Courtier,2621000,2239000,Réglé
+SIN-2025-0064,2025-05-02,2025-05-09,Voyage,Frais médicaux,Banfora,Courtier,1940000,0,Classé sans suite
+SIN-2025-0065,2025-05-21,2025-05-22,Habitation,Vol par effraction,Fada N'Gourma,Bancassurance,297000,275000,Réglé
+SIN-2025-0066,2025-10-05,2025-10-17,Automobile,Incendie,Koudougou,Bancassurance,1811000,1512000,Réglé
+SIN-2025-0067,2025-05-07,2025-05-10,Automobile,Collision,Fada N'Gourma,Courtier,1272000,1039000,Réglé
+SIN-2025-0068,2025-03-10,2025-03-14,Automobile,Vol,Ouagadougou,Agent général,1924000,0,En cours d'instruction
+SIN-2025-0069,2025-05-23,2025-05-24,Professionnelle,Vol,Ouagadougou,Bancassurance,2154000,0,Classé sans suite
+SIN-2025-0070,2025-01-21,2025-01-24,Habitation,Dégât des eaux,Ouahigouya,Bancassurance,289000,278000,Réglé
+SIN-2025-0071,2025-11-27,2025-11-28,Voyage,Perte de bagages,Bobo-Dioulasso,Agent général,53000,0,Classé sans suite
+SIN-2025-0072,2025-09-08,2025-09-20,Professionnelle,Incendie,Koudougou,Agence directe,5133000,0,En expertise
+SIN-2025-0073,2025-10-16,2025-10-17,Automobile,Incendie,Bobo-Dioulasso,Bancassurance,1490000,0,Offre envoyée
+SIN-2025-0074,2025-02-11,2025-02-11,Automobile,Vol,Ouahigouya,Bancassurance,6604000,0,Classé sans suite
+SIN-2025-0075,2025-05-12,2025-05-19,Automobile,Bris de glace,Fada N'Gourma,Courtier,66000,53000,Réglé
+SIN-2025-0076,2025-10-30,2025-11-11,Habitation,Dommages électriques,Fada N'Gourma,Bancassurance,261000,0,Offre envoyée
+SIN-2025-0077,2025-11-20,2025-11-20,Automobile,Collision,Koudougou,Agent général,453000,0,En expertise
+SIN-2025-0078,2025-12-17,2025-12-18,Automobile,Incendie,Banfora,Agence directe,1477000,1305000,Réglé
+SIN-2025-0079,2025-05-03,2025-05-05,Habitation,Vol par effraction,Koudougou,Bancassurance,849000,0,En expertise
+SIN-2025-0080,2025-11-26,2025-11-26,Automobile,Incendie,Koudougou,Agent général,1472000,1129000,Réglé
+SIN-2025-0081,2025-06-13,2025-06-17,Automobile,Vol,Fada N'Gourma,Agent général,2746000,2120000,Réglé
+SIN-2025-0082,2025-02-07,2025-02-10,Automobile,Collision,Banfora,Bancassurance,1432000,0,En cours d'instruction
+SIN-2025-0083,2025-10-30,2025-10-31,Automobile,Vol,Ouagadougou,Bancassurance,4994000,0,Offre envoyée
+SIN-2025-0084,2025-07-21,2025-07-28,Automobile,Incendie,Banfora,Bancassurance,2124000,1823000,Réglé
+SIN-2025-0085,2025-11-08,2025-11-09,Automobile,Collision,Ouagadougou,Agent général,786000,715000,Réglé
+SIN-2025-0086,2025-04-27,2025-04-28,Automobile,Collision,Banfora,Agent général,530000,487000,Réglé
+SIN-2025-0087,2025-11-07,2025-11-12,Professionnelle,Vol,Bobo-Dioulasso,Bancassurance,2326000,0,En expertise
+SIN-2025-0088,2025-10-10,2025-10-17,Automobile,Vol,Fada N'Gourma,Bancassurance,2168000,0,En cours d'instruction
+SIN-2025-0089,2025-08-10,2025-08-17,Professionnelle,Incendie,Koudougou,Agent général,4533000,3935000,Réglé
+SIN-2025-0090,2025-09-09,2025-09-10,Automobile,Collision,Koudougou,Agent général,1229000,912000,Réglé
+SIN-2025-0091,2025-07-04,2025-07-11,Automobile,Incendie,Koudougou,Bancassurance,3491000,3028000,Réglé
+SIN-2025-0092,2025-07-23,2025-07-23,Automobile,Incendie,Bobo-Dioulasso,Courtier,1640000,0,Offre envoyée
+SIN-2025-0093,2025-09-23,2025-09-30,Automobile,Collision,Fada N'Gourma,Agence directe,1309000,0,En cours d'instruction
+SIN-2025-0094,2025-10-07,2025-10-10,Automobile,Vol,Banfora,Agence directe,4557000,3502000,Réglé
+SIN-2025-0095,2025-02-14,2025-02-17,Automobile,Incendie,Ouahigouya,Bancassurance,2505000,1876000,Réglé
+SIN-2025-0096,2025-05-22,2025-05-23,Automobile,Incendie,Koudougou,Agence directe,1629000,1361000,Réglé
+SIN-2025-0097,2025-08-11,2025-08-16,Professionnelle,Incendie,Ouagadougou,Bancassurance,9625000,7276000,Réglé
+SIN-2025-0098,2025-10-31,2025-11-04,Habitation,Incendie,Banfora,Courtier,1323000,0,En expertise
+SIN-2025-0099,2025-05-02,2025-05-02,Automobile,Vol,Ouahigouya,Agent général,5083000,0,Offre envoyée
+SIN-2025-0100,2025-12-21,2025-12-22,Automobile,Bris de glace,Bobo-Dioulasso,Courtier,137000,0,En expertise
+SIN-2025-0101,2025-05-18,2025-05-21,Automobile,Incendie,Bobo-Dioulasso,Agence directe,3636000,0,En expertise
+SIN-2025-0102,2025-02-07,2025-02-10,Automobile,Vol,Banfora,Bancassurance,2051000,0,Offre envoyée
+SIN-2025-0103,2025-08-19,2025-08-26,Automobile,Vol,Fada N'Gourma,Agent général,3512000,0,En expertise
+SIN-2025-0104,2025-05-08,2025-05-15,Automobile,Collision,Ouagadougou,Agence directe,810000,784000,Réglé
+SIN-2025-0105,2025-04-07,2025-04-12,Automobile,Collision,Koudougou,Bancassurance,1430000,0,Offre envoyée
+SIN-2025-0106,2025-05-21,2025-05-21,Automobile,Vol,Ouahigouya,Bancassurance,3977000,0,En expertise
+SIN-2025-0107,2025-04-07,2025-04-09,Habitation,Dégât des eaux,Banfora,Agence directe,104000,87000,Réglé
+SIN-2025-0108,2025-12-22,2025-12-24,Habitation,Dégât des eaux,Banfora,Agence directe,118000,0,Classé sans suite
+SIN-2025-0109,2025-04-18,2025-04-19,Automobile,Incendie,Banfora,Agence directe,1019000,0,En cours d'instruction
+SIN-2025-0110,2025-10-19,2025-10-19,Habitation,Vol par effraction,Fada N'Gourma,Courtier,545000,436000,Réglé
+SIN-2025-0111,2025-03-14,2025-03-19,Automobile,Vol,Bobo-Dioulasso,Bancassurance,2049000,0,En expertise
+SIN-2025-0112,2025-01-27,2025-01-29,Automobile,Bris de glace,Ouahigouya,Agence directe,80000,0,Classé sans suite
+SIN-2025-0113,2025-05-20,2025-05-23,Automobile,Vol,Banfora,Agent général,1905000,1386000,Réglé
+SIN-2025-0114,2025-06-18,2025-06-25,Habitation,Dégât des eaux,Fada N'Gourma,Courtier,347000,287000,Réglé
+SIN-2025-0115,2025-05-16,2025-05-17,Automobile,Bris de glace,Fada N'Gourma,Agent général,130000,0,Offre envoyée
+SIN-2025-0116,2025-07-11,2025-07-11,Automobile,Incendie,Bobo-Dioulasso,Bancassurance,1022000,0,Offre envoyée
+SIN-2025-0117,2025-08-30,2025-09-06,Automobile,Bris de glace,Bobo-Dioulasso,Bancassurance,107000,97000,Réglé
+SIN-2025-0118,2025-05-23,2025-05-27,Automobile,Vol,Fada N'Gourma,Courtier,2793000,2118000,Réglé
+SIN-2025-0119,2025-10-07,2025-10-08,Automobile,Collision,Banfora,Courtier,1115000,0,En cours d'instruction
+SIN-2025-0120,2025-12-29,2026-01-03,Habitation,Vol par effraction,Bobo-Dioulasso,Agent général,1987000,1580000,Réglé
+SIN-2025-0121,2025-12-26,2025-12-30,Habitation,Incendie,Ouahigouya,Courtier,772000,0,En expertise
+SIN-2025-0122,2025-12-26,2025-12-27,Automobile,Collision,Bobo-Dioulasso,Agent général,672000,0,Offre envoyée
+SIN-2025-0123,2025-10-10,2025-10-11,Voyage,Frais médicaux,Bobo-Dioulasso,Courtier,165000,156000,Réglé
+SIN-2025-0124,2025-04-29,2025-04-30,Habitation,Vol par effraction,Ouahigouya,Courtier,980000,0,En expertise
+SIN-2025-0125,2025-06-18,2025-06-30,Habitation,Dégât des eaux,Banfora,Agent général,175000,130000,Réglé
+SIN-2025-0126,2025-05-26,2025-05-31,Automobile,Incendie,Banfora,Courtier,3918000,3521000,Réglé
+SIN-2025-0127,2025-08-02,2025-08-07,Habitation,Dommages électriques,Ouagadougou,Courtier,374000,0,En expertise
+SIN-2025-0128,2025-04-21,2025-04-26,Automobile,Incendie,Ouagadougou,Agence directe,982000,0,En expertise
+SIN-2025-0129,2025-02-13,2025-02-13,Automobile,Collision,Fada N'Gourma,Bancassurance,579000,0,Offre envoyée
+SIN-2025-0130,2025-07-05,2025-07-12,Automobile,Vol,Banfora,Agent général,2127000,1905000,Réglé
+SIN-2025-0131,2025-04-05,2025-04-05,Habitation,Vol par effraction,Banfora,Agent général,694000,0,En expertise
+SIN-2025-0132,2025-12-03,2025-12-04,Automobile,Incendie,Ouahigouya,Bancassurance,2135000,0,Classé sans suite
+SIN-2025-0133,2025-03-27,2025-03-31,Automobile,Collision,Bobo-Dioulasso,Courtier,249000,0,En expertise
+SIN-2025-0134,2025-01-14,2025-01-18,Habitation,Incendie,Ouagadougou,Agent général,4552000,0,En expertise
+SIN-2025-0135,2025-06-02,2025-06-02,Automobile,Incendie,Koudougou,Bancassurance,1520000,1248000,Réglé
+SIN-2025-0136,2025-10-17,2025-10-17,Habitation,Dommages électriques,Bobo-Dioulasso,Agence directe,452000,346000,Réglé
+SIN-2025-0137,2025-04-10,2025-04-12,Automobile,Bris de glace,Fada N'Gourma,Agent général,133000,0,Classé sans suite
+SIN-2025-0138,2025-06-25,2025-06-29,Habitation,Dégât des eaux,Ouahigouya,Agence directe,794000,646000,Réglé
+SIN-2025-0139,2025-09-09,2025-09-10,Automobile,Bris de glace,Banfora,Bancassurance,77000,0,En cours d'instruction
+SIN-2025-0140,2025-03-24,2025-03-24,Habitation,Incendie,Ouagadougou,Bancassurance,2727000,0,En expertise
+SIN-2025-0141,2025-02-09,2025-02-16,Professionnelle,Bris de machine,Koudougou,Agence directe,2147000,2030000,Réglé
+SIN-2025-0142,2025-07-29,2025-08-10,Automobile,Collision,Fada N'Gourma,Agent général,1560000,0,Classé sans suite
+SIN-2025-0143,2025-02-07,2025-02-14,Automobile,Vol,Ouagadougou,Courtier,5496000,0,Classé sans suite
+SIN-2025-0144,2025-12-14,2025-12-15,Automobile,Collision,Fada N'Gourma,Bancassurance,830000,0,Classé sans suite
+SIN-2025-0145,2025-12-27,2025-12-30,Automobile,Vol,Koudougou,Agence directe,4034000,3865000,Réglé
+SIN-2025-0146,2025-10-12,2025-10-19,Automobile,Incendie,Ouagadougou,Bancassurance,2753000,0,En cours d'instruction
+SIN-2025-0147,2025-08-19,2025-08-23,Automobile,Bris de glace,Bobo-Dioulasso,Agence directe,86000,0,En cours d'instruction
+SIN-2025-0148,2025-04-22,2025-04-22,Professionnelle,Vol,Ouahigouya,Agence directe,2114000,0,En cours d'instruction
+SIN-2025-0149,2025-08-19,2025-08-19,Automobile,Bris de glace,Bobo-Dioulasso,Agent général,193000,168000,Réglé
+SIN-2025-0150,2025-11-08,2025-11-20,Professionnelle,Bris de machine,Ouagadougou,Bancassurance,2271000,0,En expertise
+SIN-2025-0151,2025-09-15,2025-09-16,Automobile,Bris de glace,Fada N'Gourma,Bancassurance,111000,90000,Réglé
+SIN-2025-0152,2025-09-20,2025-09-24,Automobile,Collision,Bobo-Dioulasso,Agent général,2173000,2088000,Réglé
+SIN-2025-0153,2025-11-13,2025-11-14,Automobile,Incendie,Fada N'Gourma,Bancassurance,3594000,0,En cours d'instruction
+SIN-2025-0154,2025-03-22,2025-03-23,Automobile,Incendie,Koudougou,Agent général,3863000,0,Offre envoyée
+SIN-2025-0155,2025-11-13,2025-11-25,Professionnelle,Vol,Ouagadougou,Agence directe,895000,0,Offre envoyée
+SIN-2025-0156,2025-07-18,2025-07-18,Professionnelle,Bris de machine,Fada N'Gourma,Agence directe,4787000,4084000,Réglé
+SIN-2025-0157,2025-10-04,2025-10-04,Automobile,Vol,Ouahigouya,Agence directe,2750000,0,Classé sans suite
+SIN-2025-0158,2025-12-01,2025-12-13,Automobile,Bris de glace,Koudougou,Agent général,97000,72000,Réglé
+SIN-2025-0159,2025-06-30,2025-07-02,Habitation,Dégât des eaux,Fada N'Gourma,Agent général,268000,234000,Réglé
+SIN-2025-0160,2025-05-29,2025-05-30,Voyage,Rapatriement,Banfora,Courtier,2129000,0,Offre envoyée
+SIN-2025-0161,2025-09-16,2025-09-23,Automobile,Bris de glace,Bobo-Dioulasso,Agent général,144000,140000,Réglé
+SIN-2025-0162,2025-04-17,2025-04-20,Professionnelle,Incendie,Koudougou,Agence directe,7894000,0,En cours d'instruction
+SIN-2025-0163,2025-06-20,2025-06-25,Automobile,Collision,Fada N'Gourma,Courtier,2316000,0,En cours d'instruction
+SIN-2025-0164,2025-01-08,2025-01-15,Automobile,Collision,Banfora,Agence directe,1895000,1819000,Réglé
+SIN-2025-0165,2025-07-22,2025-07-23,Habitation,Dommages électriques,Bobo-Dioulasso,Agent général,538000,0,En cours d'instruction
+SIN-2025-0166,2025-06-13,2025-06-17,Voyage,Perte de bagages,Ouahigouya,Agent général,357000,0,En cours d'instruction
+SIN-2025-0167,2025-07-17,2025-07-21,Habitation,Dégât des eaux,Bobo-Dioulasso,Agent général,370000,0,Offre envoyée
+SIN-2025-0168,2025-09-02,2025-09-09,Automobile,Incendie,Koudougou,Agence directe,1245000,975000,Réglé
+SIN-2025-0169,2025-07-04,2025-07-04,Automobile,Vol,Fada N'Gourma,Courtier,2053000,1639000,Réglé
+SIN-2025-0170,2025-07-05,2025-07-06,Professionnelle,Bris de machine,Banfora,Agent général,3744000,2684000,Réglé
+SIN-2025-0171,2025-06-23,2025-06-26,Automobile,Bris de glace,Koudougou,Bancassurance,182000,0,En expertise
+SIN-2025-0172,2025-08-16,2025-08-18,Automobile,Incendie,Bobo-Dioulasso,Bancassurance,2695000,0,Offre envoyée
+SIN-2025-0173,2025-05-11,2025-05-11,Automobile,Collision,Ouagadougou,Bancassurance,705000,697000,Réglé
+SIN-2025-0174,2025-10-10,2025-10-17,Habitation,Vol par effraction,Ouagadougou,Agence directe,574000,497000,Réglé
+SIN-2025-0175,2025-03-15,2025-03-15,Habitation,Incendie,Ouagadougou,Bancassurance,4733000,0,En cours d'instruction
+SIN-2025-0176,2025-11-11,2025-11-14,Automobile,Vol,Fada N'Gourma,Bancassurance,4851000,0,En expertise
+SIN-2025-0177,2025-09-27,2025-10-04,Automobile,Bris de glace,Ouahigouya,Agent général,198000,150000,Réglé
+SIN-2025-0178,2025-01-28,2025-01-28,Habitation,Incendie,Bobo-Dioulasso,Bancassurance,4845000,0,En cours d'instruction
+SIN-2025-0179,2025-03-14,2025-03-26,Automobile,Bris de glace,Bobo-Dioulasso,Bancassurance,103000,0,Offre envoyée
+SIN-2025-0180,2025-01-30,2025-02-06,Automobile,Bris de glace,Banfora,Courtier,144000,0,En expertise
+SIN-2025-0181,2025-09-07,2025-09-08,Automobile,Vol,Banfora,Bancassurance,5395000,0,Classé sans suite
+SIN-2025-0182,2025-04-14,2025-04-16,Habitation,Dommages électriques,Ouahigouya,Bancassurance,110000,79000,Réglé
+SIN-2025-0183,2025-09-13,2025-09-16,Habitation,Dommages électriques,Bobo-Dioulasso,Bancassurance,315000,0,En expertise
+SIN-2025-0184,2025-01-07,2025-01-10,Automobile,Collision,Bobo-Dioulasso,Bancassurance,372000,345000,Réglé
+SIN-2025-0185,2025-06-10,2025-06-12,Automobile,Vol,Koudougou,Bancassurance,2742000,2501000,Réglé
+SIN-2025-0186,2025-10-25,2025-10-28,Voyage,Rapatriement,Banfora,Courtier,2316000,0,Classé sans suite
+SIN-2025-0187,2025-08-20,2025-08-25,Automobile,Bris de glace,Banfora,Agence directe,109000,86000,Réglé
+SIN-2025-0188,2025-10-29,2025-11-05,Automobile,Vol,Koudougou,Bancassurance,2633000,2282000,Réglé
+SIN-2025-0189,2025-03-11,2025-03-12,Automobile,Vol,Ouahigouya,Bancassurance,2937000,2327000,Réglé
+SIN-2025-0190,2025-10-20,2025-11-01,Professionnelle,Vol,Fada N'Gourma,Agent général,721000,718000,Réglé
+SIN-2025-0191,2025-11-14,2025-11-18,Automobile,Collision,Koudougou,Agence directe,379000,0,Classé sans suite
+SIN-2025-0192,2025-06-08,2025-06-09,Professionnelle,Vol,Banfora,Bancassurance,457000,0,Offre envoyée
+SIN-2025-0193,2025-05-13,2025-05-20,Automobile,Bris de glace,Fada N'Gourma,Agent général,140000,0,En cours d'instruction
+SIN-2025-0194,2025-08-30,2025-09-02,Habitation,Incendie,Ouahigouya,Agent général,1312000,1119000,Réglé
+SIN-2025-0195,2025-01-03,2025-01-04,Automobile,Incendie,Ouahigouya,Courtier,916000,0,Offre envoyée
+SIN-2025-0196,2025-09-28,2025-09-30,Habitation,Incendie,Koudougou,Courtier,1060000,0,Classé sans suite
+SIN-2025-0197,2025-07-06,2025-07-08,Professionnelle,Incendie,Banfora,Courtier,5411000,0,En cours d'instruction
+SIN-2025-0198,2025-09-27,2025-10-01,Automobile,Collision,Ouahigouya,Agence directe,1928000,0,En expertise
+SIN-2025-0199,2025-08-22,2025-08-23,Automobile,Bris de glace,Ouahigouya,Agent général,120000,0,En cours d'instruction
+SIN-2025-0200,2025-06-03,2025-06-15,Automobile,Collision,Banfora,Courtier,638000,0,Classé sans suite
+SIN-2025-0201,2025-08-06,2025-08-07,Automobile,Bris de glace,Koudougou,Agence directe,73000,0,Classé sans suite
+SIN-2025-0202,2025-06-05,2025-06-07,Automobile,Vol,Ouagadougou,Courtier,1647000,1377000,Réglé
+SIN-2025-0203,2025-08-10,2025-08-11,Voyage,Rapatriement,Bobo-Dioulasso,Courtier,3123000,0,Classé sans suite
+SIN-2025-0204,2025-05-16,2025-05-21,Automobile,Incendie,Ouagadougou,Agent général,4365000,0,Classé sans suite
+SIN-2025-0205,2025-05-23,2025-05-27,Automobile,Collision,Ouagadougou,Agence directe,1088000,976000,Réglé
+SIN-2025-0206,2025-10-01,2025-10-06,Automobile,Incendie,Ouagadougou,Courtier,2093000,0,En cours d'instruction
+SIN-2025-0207,2025-06-23,2025-06-24,Automobile,Collision,Bobo-Dioulasso,Agent général,728000,628000,Réglé
+SIN-2025-0208,2025-02-04,2025-02-05,Habitation,Vol par effraction,Fada N'Gourma,Courtier,298000,296000,Réglé
+SIN-2025-0209,2025-08-20,2025-08-21,Habitation,Vol par effraction,Ouahigouya,Agent général,1695000,0,Offre envoyée
+SIN-2025-0210,2025-02-02,2025-02-07,Habitation,Vol par effraction,Fada N'Gourma,Courtier,430000,0,Classé sans suite
+SIN-2025-0211,2025-11-18,2025-11-19,Automobile,Bris de glace,Ouagadougou,Agence directe,190000,179000,Réglé
+SIN-2025-0212,2025-09-06,2025-09-07,Automobile,Bris de glace,Banfora,Courtier,167000,0,En expertise
+SIN-2025-0213,2025-09-18,2025-09-19,Automobile,Bris de glace,Ouahigouya,Agent général,194000,172000,Réglé
+SIN-2025-0214,2025-06-18,2025-06-25,Automobile,Vol,Fada N'Gourma,Courtier,4181000,0,Offre envoyée
+SIN-2025-0215,2025-04-25,2025-04-25,Automobile,Collision,Koudougou,Agence directe,685000,0,En expertise
+SIN-2025-0216,2025-09-03,2025-09-10,Automobile,Bris de glace,Ouahigouya,Bancassurance,146000,0,Classé sans suite
+SIN-2025-0217,2025-05-15,2025-05-22,Automobile,Vol,Banfora,Agent général,2390000,0,Offre envoyée
+SIN-2025-0218,2025-07-03,2025-07-15,Voyage,Perte de bagages,Fada N'Gourma,Agence directe,84000,0,En expertise
+SIN-2025-0219,2025-02-13,2025-02-13,Professionnelle,Vol,Fada N'Gourma,Courtier,560000,0,En cours d'instruction
+SIN-2025-0220,2025-12-13,2025-12-17,Professionnelle,Vol,Ouagadougou,Agence directe,962000,0,En expertise
+SIN-2025-0221,2025-11-06,2025-11-18,Automobile,Collision,Ouahigouya,Bancassurance,569000,0,Classé sans suite
+SIN-2025-0222,2025-07-03,2025-07-03,Automobile,Incendie,Fada N'Gourma,Agent général,1730000,0,En expertise
+SIN-2025-0223,2025-12-04,2025-12-09,Professionnelle,Vol,Banfora,Courtier,5144000,4245000,Réglé
+SIN-2025-0224,2025-01-22,2025-01-25,Automobile,Collision,Banfora,Bancassurance,1019000,1004000,Réglé
+SIN-2025-0225,2025-11-24,2025-11-27,Automobile,Collision,Fada N'Gourma,Agent général,1054000,0,En expertise
+SIN-2025-0226,2025-12-09,2025-12-14,Automobile,Incendie,Banfora,Bancassurance,1898000,1467000,Réglé
+SIN-2025-0227,2025-02-19,2025-02-22,Automobile,Bris de glace,Ouagadougou,Bancassurance,98000,0,Classé sans suite
+SIN-2025-0228,2025-09-11,2025-09-13,Habitation,Vol par effraction,Ouahigouya,Courtier,637000,458000,Réglé
+SIN-2025-0229,2025-10-19,2025-10-22,Automobile,Incendie,Banfora,Agence directe,3719000,3310000,Réglé
+SIN-2025-0230,2025-09-01,2025-09-13,Automobile,Collision,Banfora,Agent général,739000,0,Classé sans suite
+SIN-2025-0231,2025-05-18,2025-05-20,Voyage,Frais médicaux,Fada N'Gourma,Courtier,1598000,0,Classé sans suite
+SIN-2025-0232,2025-09-03,2025-09-03,Automobile,Incendie,Banfora,Courtier,2825000,0,En expertise
+SIN-2025-0233,2025-12-15,2025-12-19,Voyage,Perte de bagages,Banfora,Agent général,89000,0,Offre envoyée
+SIN-2025-0234,2025-08-22,2025-08-27,Automobile,Bris de glace,Bobo-Dioulasso,Agence directe,137000,134000,Réglé
+SIN-2025-0235,2025-10-03,2025-10-08,Voyage,Perte de bagages,Banfora,Agent général,281000,236000,Réglé
+SIN-2025-0236,2025-02-19,2025-02-22,Habitation,Incendie,Bobo-Dioulasso,Courtier,2346000,0,En cours d'instruction
+SIN-2025-0237,2025-09-10,2025-09-15,Automobile,Collision,Banfora,Courtier,1078000,0,Classé sans suite
+SIN-2025-0238,2025-07-27,2025-07-31,Automobile,Bris de glace,Koudougou,Agent général,90000,0,En expertise
+SIN-2025-0239,2025-01-27,2025-01-30,Automobile,Collision,Bobo-Dioulasso,Agent général,907000,786000,Réglé
+SIN-2025-0240,2025-10-14,2025-10-26,Automobile,Collision,Bobo-Dioulasso,Bancassurance,1851000,1811000,Réglé
+SIN-2025-0241,2025-07-30,2025-08-03,Professionnelle,Dégât des eaux,Fada N'Gourma,Agence directe,624000,0,En expertise
+SIN-2025-0242,2025-01-04,2025-01-06,Automobile,Vol,Ouahigouya,Bancassurance,5374000,0,Offre envoyée
+SIN-2025-0243,2025-06-04,2025-06-07,Automobile,Incendie,Ouagadougou,Agence directe,1561000,1191000,Réglé
+SIN-2025-0244,2025-08-16,2025-08-28,Automobile,Collision,Ouagadougou,Agent général,1199000,891000,Réglé
+SIN-2025-0245,2025-02-22,2025-02-23,Automobile,Bris de glace,Fada N'Gourma,Courtier,206000,194000,Réglé
+SIN-2025-0246,2025-06-03,2025-06-03,Automobile,Bris de glace,Banfora,Courtier,76000,59000,Réglé
+SIN-2025-0247,2025-08-08,2025-08-11,Professionnelle,Bris de machine,Banfora,Agence directe,2187000,1795000,Réglé
+SIN-2025-0248,2025-05-25,2025-05-29,Habitation,Dommages électriques,Fada N'Gourma,Courtier,108000,0,En expertise
+SIN-2025-0249,2025-02-17,2025-02-24,Automobile,Bris de glace,Fada N'Gourma,Agence directe,151000,0,Classé sans suite
+SIN-2025-0250,2025-07-27,2025-07-29,Professionnelle,Incendie,Banfora,Agence directe,11740000,11338000,Réglé
+SIN-2025-0251,2025-04-07,2025-04-14,Habitation,Dégât des eaux,Fada N'Gourma,Bancassurance,235000,0,En expertise
+SIN-2025-0252,2025-03-16,2025-03-21,Automobile,Incendie,Bobo-Dioulasso,Bancassurance,2252000,2048000,Réglé
+SIN-2025-0253,2025-05-30,2025-06-01,Professionnelle,Dégât des eaux,Ouahigouya,Agent général,698000,0,En cours d'instruction
+SIN-2025-0254,2025-03-18,2025-03-25,Automobile,Collision,Ouahigouya,Agent général,356000,314000,Réglé
+SIN-2025-0255,2025-09-05,2025-09-06,Automobile,Vol,Fada N'Gourma,Bancassurance,3452000,0,En expertise
+SIN-2025-0256,2025-11-06,2025-11-08,Automobile,Vol,Fada N'Gourma,Courtier,3324000,0,En expertise
+SIN-2025-0257,2025-06-21,2025-06-23,Automobile,Bris de glace,Banfora,Agence directe,98000,0,Classé sans suite
+SIN-2025-0258,2025-03-24,2025-03-27,Automobile,Collision,Koudougou,Courtier,1046000,880000,Réglé
+SIN-2025-0259,2025-11-02,2025-11-14,Voyage,Rapatriement,Banfora,Agent général,2083000,1592000,Réglé
+SIN-2025-0260,2025-03-18,2025-03-30,Professionnelle,Dégât des eaux,Koudougou,Courtier,1666000,0,En expertise
+SIN-2025-0261,2025-06-07,2025-06-19,Habitation,Incendie,Ouagadougou,Courtier,1797000,0,En expertise
+SIN-2025-0262,2025-01-18,2025-01-25,Professionnelle,Bris de machine,Ouahigouya,Agent général,4285000,3922000,Réglé
+SIN-2025-0263,2025-11-22,2025-11-23,Automobile,Bris de glace,Ouagadougou,Agent général,221000,212000,Réglé
+SIN-2025-0264,2025-12-04,2025-12-08,Automobile,Vol,Banfora,Agence directe,2311000,2112000,Réglé
+SIN-2025-0265,2025-03-19,2025-03-23,Professionnelle,Bris de machine,Banfora,Courtier,2313000,2229000,Réglé
+SIN-2025-0266,2025-09-26,2025-09-30,Automobile,Collision,Fada N'Gourma,Bancassurance,1306000,999000,Réglé
+SIN-2025-0267,2025-02-05,2025-02-05,Automobile,Bris de glace,Banfora,Agence directe,153000,125000,Réglé
+SIN-2025-0268,2025-10-19,2025-10-23,Habitation,Dégât des eaux,Fada N'Gourma,Agent général,180000,0,En cours d'instruction
+SIN-2025-0269,2025-05-31,2025-06-01,Habitation,Dégât des eaux,Koudougou,Agence directe,152000,0,Offre envoyée
+SIN-2025-0270,2025-11-14,2025-11-14,Automobile,Collision,Bobo-Dioulasso,Bancassurance,340000,0,Classé sans suite
+SIN-2025-0271,2025-04-05,2025-04-12,Automobile,Incendie,Bobo-Dioulasso,Bancassurance,1532000,1106000,Réglé
+SIN-2025-0272,2025-01-12,2025-01-15,Automobile,Vol,Banfora,Bancassurance,1889000,1872000,Réglé
+SIN-2025-0273,2025-03-11,2025-03-12,Habitation,Dommages électriques,Banfora,Agence directe,154000,149000,Réglé
+SIN-2025-0274,2025-07-31,2025-07-31,Automobile,Collision,Ouagadougou,Agence directe,409000,299000,Réglé
+SIN-2025-0275,2025-04-03,2025-04-15,Automobile,Incendie,Ouagadougou,Courtier,1765000,0,Classé sans suite
+SIN-2025-0276,2025-03-27,2025-04-03,Automobile,Incendie,Koudougou,Courtier,1174000,857000,Réglé
+SIN-2025-0277,2025-07-25,2025-07-26,Professionnelle,Vol,Bobo-Dioulasso,Agent général,2314000,0,Offre envoyée
+SIN-2025-0278,2025-05-22,2025-06-03,Automobile,Incendie,Ouahigouya,Courtier,1514000,0,En expertise
+SIN-2025-0279,2025-10-05,2025-10-09,Automobile,Collision,Ouagadougou,Bancassurance,152000,0,Offre envoyée
+SIN-2025-0280,2025-06-22,2025-07-04,Automobile,Vol,Fada N'Gourma,Agence directe,3006000,0,En expertise
+SIN-2025-0281,2025-04-11,2025-04-13,Voyage,Rapatriement,Banfora,Bancassurance,4904000,3747000,Réglé
+SIN-2025-0282,2025-11-05,2025-11-10,Automobile,Vol,Koudougou,Agence directe,2215000,1910000,Réglé
+SIN-2025-0283,2025-07-05,2025-07-05,Automobile,Incendie,Banfora,Bancassurance,3025000,0,Offre envoyée
+SIN-2025-0284,2025-12-04,2025-12-04,Automobile,Incendie,Ouahigouya,Agent général,4095000,0,En cours d'instruction
+SIN-2025-0285,2025-02-14,2025-02-18,Automobile,Vol,Bobo-Dioulasso,Bancassurance,2038000,0,Offre envoyée
+SIN-2025-0286,2025-09-03,2025-09-04,Automobile,Bris de glace,Bobo-Dioulasso,Courtier,90000,0,Offre envoyée
+SIN-2025-0287,2025-12-20,2026-01-01,Automobile,Bris de glace,Bobo-Dioulasso,Agence directe,194000,190000,Réglé
+SIN-2025-0288,2025-09-26,2025-09-30,Automobile,Vol,Fada N'Gourma,Courtier,3476000,0,En expertise
+SIN-2025-0289,2025-08-24,2025-08-25,Professionnelle,Vol,Koudougou,Agent général,2557000,2372000,Réglé
+SIN-2025-0290,2025-10-08,2025-10-08,Automobile,Bris de glace,Banfora,Courtier,102000,0,En cours d'instruction
+SIN-2025-0291,2025-02-03,2025-02-07,Automobile,Vol,Koudougou,Courtier,1884000,0,En cours d'instruction
+SIN-2025-0292,2025-09-01,2025-09-01,Automobile,Bris de glace,Banfora,Bancassurance,184000,134000,Réglé
+SIN-2025-0293,2025-12-27,2025-12-28,Automobile,Collision,Fada N'Gourma,Agence directe,1004000,820000,Réglé
+SIN-2025-0294,2025-09-10,2025-09-17,Professionnelle,Bris de machine,Bobo-Dioulasso,Courtier,4786000,4734000,Réglé
+SIN-2025-0295,2025-01-07,2025-01-08,Automobile,Vol,Ouagadougou,Bancassurance,3250000,2278000,Réglé
+SIN-2025-0296,2025-12-23,2025-12-28,Habitation,Incendie,Ouagadougou,Agence directe,824000,692000,Réglé
+SIN-2025-0297,2025-09-01,2025-09-08,Automobile,Collision,Ouahigouya,Agence directe,346000,323000,Réglé
+SIN-2025-0298,2025-01-20,2025-01-23,Automobile,Vol,Ouagadougou,Courtier,2775000,0,Classé sans suite
+SIN-2025-0299,2025-09-24,2025-09-27,Automobile,Collision,Banfora,Bancassurance,806000,0,Offre envoyée
+SIN-2025-0300,2025-12-04,2025-12-16,Habitation,Vol par effraction,Koudougou,Bancassurance,1420000,0,En cours d'instruction
+SIN-2025-0301,2025-03-29,2025-04-02,Professionnelle,Incendie,Fada N'Gourma,Bancassurance,7496000,7102000,Réglé
+SIN-2025-0302,2025-05-13,2025-05-17,Professionnelle,Vol,Ouagadougou,Courtier,2799000,0,En expertise
+SIN-2025-0303,2025-06-23,2025-06-27,Automobile,Collision,Fada N'Gourma,Bancassurance,436000,341000,Réglé
+SIN-2025-0304,2025-03-27,2025-03-31,Automobile,Vol,Bobo-Dioulasso,Courtier,3557000,0,Offre envoyée
+SIN-2025-0305,2025-08-29,2025-09-01,Professionnelle,Dégât des eaux,Ouahigouya,Agence directe,2614000,0,Offre envoyée
+SIN-2025-0306,2025-12-14,2025-12-18,Automobile,Collision,Ouahigouya,Agence directe,1077000,852000,Réglé
+SIN-2025-0307,2025-08-29,2025-09-10,Automobile,Vol,Koudougou,Agent général,5758000,4376000,Réglé
+SIN-2025-0308,2025-02-23,2025-02-28,Automobile,Bris de glace,Bobo-Dioulasso,Agence directe,78000,61000,Réglé
+SIN-2025-0309,2025-09-06,2025-09-06,Automobile,Bris de glace,Ouagadougou,Courtier,71000,61000,Réglé
+SIN-2025-0310,2025-10-14,2025-10-15,Automobile,Incendie,Bobo-Dioulasso,Agence directe,3372000,0,En cours d'instruction
+SIN-2025-0311,2025-09-28,2025-09-30,Habitation,Dommages électriques,Koudougou,Agent général,272000,0,En expertise
+SIN-2025-0312,2025-10-09,2025-10-10,Automobile,Collision,Ouagadougou,Courtier,1114000,0,Offre envoyée
+SIN-2025-0313,2025-07-12,2025-07-13,Automobile,Collision,Ouagadougou,Agent général,821000,639000,Réglé
+SIN-2025-0314,2025-11-12,2025-11-13,Professionnelle,Bris de machine,Ouahigouya,Agent général,4951000,3559000,Réglé
+SIN-2025-0315,2025-10-12,2025-10-13,Automobile,Bris de glace,Ouahigouya,Courtier,183000,0,Offre envoyée
+SIN-2025-0316,2025-09-23,2025-09-26,Automobile,Vol,Banfora,Agent général,2093000,1796000,Réglé
+SIN-2025-0317,2025-06-25,2025-06-26,Habitation,Dommages électriques,Koudougou,Courtier,183000,0,En cours d'instruction
+SIN-2025-0318,2025-04-03,2025-04-05,Automobile,Vol,Ouahigouya,Bancassurance,2325000,1847000,Réglé
+SIN-2025-0319,2025-11-29,2025-12-04,Automobile,Bris de glace,Bobo-Dioulasso,Agence directe,97000,0,Offre envoyée
+SIN-2025-0320,2025-02-14,2025-02-18,Automobile,Collision,Fada N'Gourma,Bancassurance,795000,0,En expertise
+SIN-2025-0321,2025-08-29,2025-08-30,Automobile,Incendie,Bobo-Dioulasso,Bancassurance,845000,810000,Réglé
+SIN-2025-0322,2025-05-21,2025-05-26,Automobile,Bris de glace,Ouagadougou,Agent général,69000,0,En cours d'instruction
+SIN-2025-0323,2025-02-20,2025-02-20,Automobile,Bris de glace,Koudougou,Agence directe,73000,56000,Réglé
+SIN-2025-0324,2025-10-08,2025-10-12,Automobile,Bris de glace,Ouahigouya,Agent général,76000,66000,Réglé
+SIN-2025-0325,2025-10-09,2025-10-16,Automobile,Incendie,Bobo-Dioulasso,Bancassurance,2489000,1792000,Réglé
+SIN-2025-0326,2025-08-14,2025-08-18,Professionnelle,Dégât des eaux,Ouahigouya,Agence directe,1719000,0,En expertise
+SIN-2025-0327,2025-09-09,2025-09-11,Automobile,Bris de glace,Ouagadougou,Agent général,161000,0,En cours d'instruction
+SIN-2025-0328,2025-12-09,2025-12-09,Professionnelle,Dégât des eaux,Ouahigouya,Agent général,1162000,0,Offre envoyée
+SIN-2025-0329,2025-08-26,2025-09-02,Voyage,Rapatriement,Bobo-Dioulasso,Bancassurance,1671000,0,En expertise
+SIN-2025-0330,2025-11-15,2025-11-18,Automobile,Collision,Banfora,Agence directe,297000,241000,Réglé
+SIN-2025-0331,2025-07-14,2025-07-26,Automobile,Vol,Ouahigouya,Agence directe,3079000,2382000,Réglé
+SIN-2025-0332,2025-03-27,2025-03-27,Automobile,Incendie,Banfora,Agent général,3271000,0,En expertise
+SIN-2025-0333,2025-08-28,2025-09-02,Automobile,Collision,Ouagadougou,Agent général,1370000,1317000,Réglé
+SIN-2025-0334,2025-02-12,2025-02-16,Automobile,Vol,Fada N'Gourma,Agence directe,2765000,2083000,Réglé
+SIN-2025-0335,2025-05-05,2025-05-09,Professionnelle,Bris de machine,Fada N'Gourma,Agence directe,3019000,0,En expertise
+SIN-2025-0336,2025-09-17,2025-09-29,Voyage,Rapatriement,Fada N'Gourma,Courtier,4595000,0,En cours d'instruction
+SIN-2025-0337,2025-03-29,2025-04-10,Automobile,Incendie,Koudougou,Agence directe,1430000,1162000,Réglé
+SIN-2025-0338,2025-01-19,2025-01-22,Automobile,Bris de glace,Banfora,Agence directe,163000,0,Offre envoyée
+SIN-2025-0339,2025-02-04,2025-02-07,Automobile,Bris de glace,Koudougou,Bancassurance,93000,0,En expertise
+SIN-2025-0340,2025-10-25,2025-10-28,Habitation,Dommages électriques,Ouahigouya,Agent général,240000,211000,Réglé
+SIN-2025-0341,2025-11-04,2025-11-11,Automobile,Bris de glace,Ouahigouya,Courtier,100000,88000,Réglé
+SIN-2025-0342,2025-10-20,2025-10-21,Automobile,Vol,Banfora,Courtier,3172000,0,Offre envoyée
+SIN-2025-0343,2025-04-12,2025-04-19,Automobile,Incendie,Ouagadougou,Agent général,1241000,1045000,Réglé
+SIN-2025-0344,2025-01-02,2025-01-14,Professionnelle,Incendie,Ouagadougou,Courtier,4648000,0,En expertise
+SIN-2025-0345,2025-01-20,2025-01-23,Automobile,Collision,Bobo-Dioulasso,Agent général,462000,0,Classé sans suite
+SIN-2025-0346,2025-09-13,2025-09-14,Automobile,Incendie,Ouagadougou,Agent général,2445000,1910000,Réglé
+SIN-2025-0347,2025-12-23,2025-12-25,Voyage,Rapatriement,Ouagadougou,Agent général,2914000,2303000,Réglé
+SIN-2025-0348,2025-01-24,2025-01-27,Automobile,Bris de glace,Ouahigouya,Bancassurance,99000,0,En cours d'instruction
+SIN-2025-0349,2025-03-27,2025-04-03,Professionnelle,Bris de machine,Ouahigouya,Courtier,1560000,0,Classé sans suite
+SIN-2025-0350,2025-12-17,2025-12-24,Automobile,Collision,Ouahigouya,Courtier,1952000,0,En expertise
+SIN-2025-0351,2025-11-20,2025-11-27,Automobile,Incendie,Ouagadougou,Courtier,1705000,1699000,Réglé
+SIN-2025-0352,2025-04-08,2025-04-15,Automobile,Incendie,Ouahigouya,Courtier,5440000,3988000,Réglé
+SIN-2025-0353,2025-04-29,2025-05-06,Automobile,Bris de glace,Ouagadougou,Courtier,155000,115000,Réglé
+SIN-2025-0354,2025-07-05,2025-07-10,Habitation,Dommages électriques,Fada N'Gourma,Bancassurance,110000,0,Classé sans suite
+SIN-2025-0355,2025-01-28,2025-02-04,Habitation,Incendie,Koudougou,Agent général,1149000,1029000,Réglé
+SIN-2025-0356,2025-10-20,2025-10-23,Automobile,Incendie,Banfora,Bancassurance,1797000,1540000,Réglé
+SIN-2025-0357,2025-03-14,2025-03-15,Voyage,Frais médicaux,Banfora,Agence directe,1490000,1180000,Réglé
+SIN-2025-0358,2025-12-04,2025-12-09,Habitation,Dommages électriques,Banfora,Agence directe,646000,0,Offre envoyée
+SIN-2025-0359,2025-12-26,2025-12-31,Automobile,Bris de glace,Ouagadougou,Agence directe,79000,56000,Réglé
+SIN-2025-0360,2025-09-07,2025-09-08,Voyage,Rapatriement,Banfora,Agence directe,4648000,0,Offre envoyée
+SIN-2025-0361,2025-05-29,2025-06-05,Automobile,Bris de glace,Ouagadougou,Agence directe,210000,0,Offre envoyée
+SIN-2025-0362,2025-05-13,2025-05-25,Automobile,Vol,Fada N'Gourma,Bancassurance,4059000,3884000,Réglé
+SIN-2025-0363,2025-08-29,2025-08-29,Habitation,Vol par effraction,Banfora,Courtier,428000,310000,Réglé
+SIN-2025-0364,2025-09-20,2025-09-25,Automobile,Collision,Bobo-Dioulasso,Courtier,1973000,1938000,Réglé
+SIN-2025-0365,2025-08-06,2025-08-06,Automobile,Incendie,Bobo-Dioulasso,Agent général,3146000,2342000,Réglé
+SIN-2025-0366,2025-09-17,2025-09-18,Habitation,Incendie,Ouagadougou,Courtier,1769000,1538000,Réglé
+SIN-2025-0367,2025-10-30,2025-10-30,Automobile,Incendie,Fada N'Gourma,Agent général,4713000,4100000,Réglé
+SIN-2025-0368,2025-03-08,2025-03-09,Automobile,Incendie,Fada N'Gourma,Courtier,2877000,2660000,Réglé
+SIN-2025-0369,2025-06-03,2025-06-07,Habitation,Vol par effraction,Banfora,Agence directe,496000,0,Classé sans suite
+SIN-2025-0370,2025-03-18,2025-03-21,Professionnelle,Vol,Koudougou,Agent général,1001000,0,En cours d'instruction
+SIN-2025-0371,2025-02-09,2025-02-14,Automobile,Incendie,Ouagadougou,Agence directe,3581000,0,En cours d'instruction
+SIN-2025-0372,2025-11-23,2025-12-05,Automobile,Incendie,Banfora,Bancassurance,1186000,0,En expertise
+SIN-2025-0373,2025-05-02,2025-05-06,Professionnelle,Dégât des eaux,Koudougou,Agent général,1005000,946000,Réglé
+SIN-2025-0374,2025-10-18,2025-10-20,Automobile,Collision,Bobo-Dioulasso,Agent général,521000,0,En cours d'instruction
+SIN-2025-0375,2025-10-10,2025-10-12,Professionnelle,Dégât des eaux,Bobo-Dioulasso,Agent général,641000,609000,Réglé
+SIN-2025-0376,2025-01-10,2025-01-15,Habitation,Incendie,Bobo-Dioulasso,Bancassurance,2380000,2297000,Réglé
+SIN-2025-0377,2025-06-09,2025-06-16,Automobile,Vol,Ouagadougou,Bancassurance,4264000,3805000,Réglé
+SIN-2025-0378,2025-04-15,2025-04-20,Habitation,Dommages électriques,Ouagadougou,Courtier,358000,0,En cours d'instruction
+SIN-2025-0379,2025-09-12,2025-09-17,Habitation,Incendie,Ouahigouya,Agent général,650000,530000,Réglé
+SIN-2025-0380,2025-03-26,2025-03-29,Voyage,Frais médicaux,Bobo-Dioulasso,Bancassurance,2798000,0,En cours d'instruction
+SIN-2025-0381,2025-09-22,2025-09-23,Professionnelle,Vol,Ouagadougou,Agent général,1085000,1082000,Réglé
+SIN-2025-0382,2025-02-28,2025-02-28,Automobile,Incendie,Koudougou,Agent général,3127000,0,En expertise
+SIN-2025-0383,2025-04-17,2025-04-19,Automobile,Vol,Ouagadougou,Agence directe,1881000,0,Offre envoyée
+SIN-2025-0384,2025-01-29,2025-02-10,Professionnelle,Incendie,Ouagadougou,Bancassurance,21908000,16788000,Réglé
+SIN-2025-0385,2025-01-14,2025-01-21,Automobile,Bris de glace,Ouagadougou,Agence directe,102000,0,Classé sans suite
+SIN-2025-0386,2025-01-04,2025-01-08,Habitation,Vol par effraction,Ouagadougou,Agent général,764000,0,Offre envoyée
+SIN-2025-0387,2025-11-05,2025-11-10,Automobile,Collision,Banfora,Agence directe,1041000,0,Offre envoyée
+SIN-2025-0388,2025-03-02,2025-03-03,Automobile,Vol,Ouagadougou,Agent général,2107000,0,Classé sans suite
+SIN-2025-0389,2025-02-02,2025-02-06,Automobile,Vol,Ouahigouya,Agence directe,3325000,0,En expertise
+SIN-2025-0390,2025-03-17,2025-03-20,Habitation,Dommages électriques,Ouahigouya,Agent général,307000,289000,Réglé
+SIN-2025-0391,2025-03-31,2025-04-02,Automobile,Bris de glace,Koudougou,Agent général,81000,77000,Réglé
+SIN-2025-0392,2025-07-13,2025-07-16,Automobile,Incendie,Bobo-Dioulasso,Agent général,2160000,0,En cours d'instruction
+SIN-2025-0393,2025-05-21,2025-05-23,Automobile,Vol,Koudougou,Agent général,1852000,0,Classé sans suite
+SIN-2025-0394,2025-07-05,2025-07-05,Automobile,Bris de glace,Ouahigouya,Courtier,84000,0,Offre envoyée
+SIN-2025-0395,2025-09-04,2025-09-11,Automobile,Bris de glace,Koudougou,Bancassurance,190000,0,En cours d'instruction
+SIN-2025-0396,2025-12-26,2025-12-26,Automobile,Incendie,Koudougou,Agent général,2767000,0,En expertise
+SIN-2025-0397,2025-07-27,2025-07-29,Habitation,Dégât des eaux,Fada N'Gourma,Courtier,567000,0,Offre envoyée
+SIN-2025-0398,2025-10-15,2025-10-19,Habitation,Incendie,Fada N'Gourma,Agent général,4687000,4444000,Réglé
+SIN-2025-0399,2025-05-21,2025-05-24,Professionnelle,Dégât des eaux,Koudougou,Agent général,508000,0,En cours d'instruction
+SIN-2025-0400,2025-01-24,2025-02-05,Professionnelle,Incendie,Ouagadougou,Courtier,4850000,4332000,Réglé
